@@ -6,9 +6,16 @@ body {
     background-color: #EE882F;
 }
 
-div {
-    margin: 1em;
-    padding: 1em;
+#nyanbg {
+    background-color: black;
+}
+
+.rainbow-text {
+    font-size: 60px;
+}
+
+.rainbow-text .block-line>span {
+    display: inline-block;
 }
 
 .cups {
@@ -26,4 +33,9 @@ img {
 
 a {
     color: white;
+}
+
+div {
+    margin: 1em;
+    padding: 1em;
 }
