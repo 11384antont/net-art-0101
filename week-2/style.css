@@ -1,0 +1,29 @@
+body {
+    /* color: #black; */
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #EE882F;
+}
+
+div {
+    margin: 1em;
+    padding: 1em;
+}
+
+.cups {
+    padding: 20px;
+    display: inline-block
+}
+
+h1 {
+    font-size: 60px;
+}
+
+img {
+    width: 500px;
+}
+
+a {
+    color: white;
+}
