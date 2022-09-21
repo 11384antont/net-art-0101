@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center {
+    margin: auto;
+    width: 80vw;
+    padding: 70px 0;
+}
+
+.grid-container {
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+#one {
+    background-color: #231F20;
+    color: #231F20;
+    padding-top: 100px;
+    font-size: 120px;
+    line-height: 120px;
+    grid-row: 1 / span 2;
+    grid: 1;
+}
+
+#two {
+    background-color: #BB4430;
+    color: #BB4430;
+    padding-top: 30px;
+    font-size: 100px;
+    grid-column: 2 / span 3;
+    grid-row: 1;
+}
+
+#three {
+    background-color: #efe6dd;
+    color: #efe6dd;
+    padding-top: 50px;
+    font-size: 70px;
+}
+
+#four {
+    background-color: #F3DFA2;
+    color: #F3DFA2;
+    padding-top: 30px;
+    font-size: 80px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+#five {
+    background-color: #7EBDC2;
+    color: #7EBDC2;
+    font-size: 180px;
+    grid-column: 1 / span 3;
+    grid-row: 3;
+}
+
+#one:hover {
+    background-color: whitesmoke;
+}
+
+#two:hover {
+    background-color: whitesmoke;
+}
+
+#three:hover {
+    background-color: whitesmoke;
+}
+
+#four:hover {
+    background-color: whitesmoke;
+}
+
+#five:hover {
+    background-color: whitesmoke;
+}
