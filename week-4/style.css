@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background: rgb(199, 154, 127);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.diglett-full {
+    padding: 1rem;
+    height: calc(100vh - 2rem);
+    position: relative;
+}
+
+/*diglett body*/
+.diglett-body {
+    width: 200px;
+    height: 300px;
+    border-radius: 100px 100px 0px 0px;
+    border-style: solid;
+    border-color: #111111;
+    border-width: 2px;
+    position: absolute;
+    background-color: #9c5a22;
+}
+
+.diglett-face {
+    position: relative;
+    top: 45px;
+    left: 40px;
+}
+
+.eyes {
+    width: 16px;
+    height: 40px;
+    border-radius: 50% 30%;
+    background-color: #111111;
+    position: absolute;
+}
+
+.eyes-1 {
+    left: 0;
+}
+
+.eyes-2 {
+    left: 60px;
+}
+
+.highlight {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 4px;
+    top: 2px;
+}
+
+.nose {
+    width: 80px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(224, 114, 145);
+    position: relative;
+    border-style: solid;
+    border-color: #111111;
+    border-width: 2px;
+    top: 40px;
+    left: -10px;
+}
+
+.dirt {
+    background-color: rgb(199, 154, 127);
+    position: relative;
+    width: 300px;
+    height: 350px;
+    bottom: -240px;
+}
+
+.dig .diglett-body {
+    animation: dig 0.5s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes dig {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(250px);
+    }
+}
