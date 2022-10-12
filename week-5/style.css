@@ -32,9 +32,22 @@ h4 {
     font-size: 30px;
 }
 
+.clover {
+    position: relative;
+    width: 100%;
+}
+
 .inputclover {
-    margin: 180px auto;
-    padding: 0px 200px;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+img {
+    display: block;
+    margin: 100px auto;
+    width: 50%;
 }
 
 input {
@@ -43,11 +56,16 @@ input {
     margin: 20px 0px;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
+    border-radius: 20px;
+    border-width: 0;
 }
 
 button {
+    color: whitesmoke;
     background-color: #238D34;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     width: 100%;
+    border-radius: 50px;
+    border-width: 0;
 }
