@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+#map {
+    width: 50vw;
+    height: 100vh;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.1em;
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    background-color: rgb(11, 198, 255);
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child:nth-child(2) {
+    color: rgb(255, 255, 255);
+    margin: 0 40px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
